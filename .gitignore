@@ -1,0 +1,20 @@
+# Ignorar carpetas grandes y datos sensibles
+Restaurant-3/
+FramesCompletos/
+Videos/
+runs/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.pt
+*.mp4
+*.jpg
+*.png
+*.jpeg
+
+# Incluir explícitamente los archivos necesarios
+!entrenar-yolov8.ipynb
+!generar-fotogramas.ipynb
+!requirements.txt
+!README.md
